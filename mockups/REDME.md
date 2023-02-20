@@ -1,5 +1,9 @@
 # Графический интерфейс таск-менеджера согласно техническому заданию:
 
+### ссылка на figma проект:
+
+https://www.figma.com/file/sZMeBgdlrCQYyAGQ4pp0xI/DATAMOLA-JS-FROM-ZERO-TO-HERO-2023-(Community)?t=yythMDRtfslEaomv-6
+
 ## Страница авторизации
 
 ![Image alt](./authorization%20page.png)
