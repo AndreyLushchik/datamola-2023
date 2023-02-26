@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./styles/style.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="panel">
+        <header>
+          <a
+            href="./main.html"
+            class="panel__logo"
+          >
+            <img
+              src="./img/logo32px.png"
+              alt=""
+            />
+          </a>
+          <div class="panel__profile">
+            <img
+              src="./img/avatar.png"
+              alt="avatar"
+            />
+            <p>Zain Workman</p>
+          </div>
+          <nav class="panel__nav">
+            <a href="">
+              <button>
+                <img
+                  src="./img/logout.svg"
+                  alt=""
+                />logout
+              </button>
+            </a>
+          </nav>
+        </header>
+        <footer>
+          <h5 style="font-family: 'Notable', sans-serif">TOMASTIAT</h5>
+          <p>Andrey Lushchik</p>
+          <a
+            href="mailto:andreylushchik56@gmail.com"
+            style="color: white"
+            >andreylushchik56@gmail.com</a
+          >
+          <p>V26.02.23</p>
+        </footer>
+      </div>
+      <main class="main">
+        <div class="control">
+          <div class="control__filter">
+            <button>
+              DATE
+              <img
+                src="./img/arrow-down.svg"
+                alt=""
+              />
+            </button>
+            <button>
+              PRIORITY
+              <img
+                src="./img/arrow-down.svg"
+                alt=""
+              />
+            </button>
+            <button>
+              NAME
+              <img
+                src="./img/arrow-down.svg"
+                alt=""
+              />
+            </button>
+            <button>
+              PRIVATE
+              <img
+                src="./img/arrow-down.svg"
+                alt=""
+              />
+            </button>
+          </div>
+          <div class="control__search">
+            <input
+              type="text"
+              placeholder="Search for project"
+              class="control__search-input"
+            />
+            <button
+              type="submit"
+              class="control__search-btn"
+            ></button>
+          </div>
+        </div>
+        <div class="view">
+          <div class="view__task">
+            <button id="view_column">
+              <img
+                src="./img/task-column.svg"
+                alt=""
+              />
+            </button>
+            <button id="view_table">
+              <img
+                src="./img/task-table.svg"
+                alt=""
+              />
+            </button>
+          </div>
+          <button class="view__add-btn">
+            add task
+            <img
+              src="./img/add-icon.svg"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="tasks-column">
+          <div class="column__todo">
+            <h4>TODO</h4>
+            <div class="column_tasks">
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column__progress">
+            <h4>IN PROGRESS</h4>
+            <div class="column_tasks">
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column__complete">
+            <h4>COMPLETE</h4>
+            <div class="column_tasks">
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+              <div class="task">
+                <div class="task__header">
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    possimus natus expedita ex, excepturi sequi nesciunt, harum
+                    placeat quos dolores perspiciatis quidem, inventore aliquam
+                    similique recusandae ipsa magni hic veritatis.
+                  </h5>
+                  <p>MEDIUM</p>
+                </div>
+                <div class="task__status">
+                  <p class="task__assignee">Kadin Carder</p>
+                  <select id="task__progress">
+                    <option
+                      value="To do"
+                      selected
+                    >
+                      To do
+                    </option>
+                    <option value="In progress">In progress</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+                <a href="./task.html">
+                  <article id="task__text">
+                    Lorem ipsum dolor sit amet consectetur. Integer massa massa
+                    interdum a lectus eget faucibus. Ut ut malesuada eu
+                    fermentum nisi sed hac. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat eaque est sapiente
+                    libero nam culpa debitis, cumque voluptates vero distinctio
+                    veniam facilis dolorem beatae quae voluptate iste quam.
+                    Quibusdam, blanditiis!
+                  </article>
+                </a>
+                <div class="task__info">
+                  <p>
+                    <img
+                      src="./img/comment.svg"
+                      alt=""
+                    />
+                    3
+                  </p>
+                  <time datetime="2023-02-16T14:30">16.02.23 | 14:30</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
